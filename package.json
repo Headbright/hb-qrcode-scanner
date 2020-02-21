@@ -11,6 +11,11 @@
     "src/**/*.vue",
     "!src/serve-dev.*"
   ],
+  "author": "Headbright Group <info@headbright.be> (https://www.headbright.eu/)",
+  "license": "BSD-3",
+  "repository": {
+    "url": "https://github.com/Headbright/hb-qrcode-scanner"
+  },
   "scripts": {
     "serve": "vue-cli-service serve src/serve-dev.js",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
